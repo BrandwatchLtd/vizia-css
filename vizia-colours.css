@@ -1,0 +1,37 @@
+/* General */
+
+.vc-text {
+    color: #E5E5EA;
+}
+
+.vc-text-error {
+    color: #C9262C;
+}
+
+.vc-bg {
+    background: #404045;
+}
+
+.vc-tile-bg {
+    background: #36363B;
+}
+
+.vc-tile-border {
+    border-color: #404045;
+}
+
+.vc-hairline {
+    border-color: #545459;
+}
+
+.vc-button-submit {
+    background-color: #4C9EF5;
+    color: #FFFFFF;
+}
+
+/* Panel */
+
+.vc-panel {
+    background: #FFFFFF;
+    color: #333333;
+}

@@ -1,0 +1,429 @@
+/* Flexbox */
+
+.vl-flex-row,
+.vl-flex-column {
+    display: -webkit-flex;
+    -webkit-flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -webkit-align-items: stretch;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+    position: relative;
+    min-height: 0;
+}
+
+.vl-flex-row {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.vl-flex-column {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.vl-flex-wrap {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.vl-flex-vh-center {
+    -webkit-justify-content: center;
+    -webkit-align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.vl-flex-1 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.vl-flex-2 {
+    -webkit-flex: 2;
+    flex: 2;
+}
+
+.vl-flex-3 {
+    -webkit-flex: 3;
+    flex: 3;
+}
+
+.vl-flex-4 {
+    -webkit-flex: 4;
+    flex: 4;
+}
+
+.vl-flex-5 {
+    -webkit-flex: 5;
+    flex: 5;
+}
+
+/* Margin */
+
+.vl-margin-none {
+    margin: 0;
+}
+
+.vl-margin-tiny {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+.vl-margin-small {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.vl-margin-medium {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+
+.vl-margin-large {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.vl-margin-huge {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+.vl-margin-h-tiny {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.vl-margin-h-small {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.vl-margin-h-medium {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+.vl-margin-h-large {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.vl-margin-h-huge {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.vl-margin-v-tiny {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+.vl-margin-v-small {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.vl-margin-v-medium {
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+
+.vl-margin-v-large {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.vl-margin-v-huge {
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+.vl-margin-l-tiny {
+    margin-left: 0.5vw;
+}
+
+.vl-margin-l-small {
+    margin-left: 1vw;
+}
+
+.vl-margin-l-medium {
+    margin-left: 1.5vw;
+}
+
+.vl-margin-l-large {
+    margin-left: 2vw;
+}
+
+.vl-margin-l-huge {
+    margin-left: 2.5vw;
+}
+
+.vl-margin-r-tiny {
+    margin-right: 0.5vw;
+}
+
+.vl-margin-r-small {
+    margin-right: 1vw;
+}
+
+.vl-margin-r-medium {
+    margin-right: 1.5vw;
+}
+
+.vl-margin-r-large {
+    margin-right: 2vw;
+}
+
+.vl-margin-r-huge {
+    margin-right: 2.5vw;
+}
+
+.vl-margin-t-tiny {
+    margin-top: 0.5vh;
+}
+
+.vl-margin-t-small {
+    margin-top: 1vh;
+}
+
+.vl-margin-t-medium {
+    margin-top: 1.5vh;
+}
+
+.vl-margin-t-large {
+    margin-top: 2vh;
+}
+
+.vl-margin-t-huge {
+    margin-top: 2.5vh;
+}
+
+.vl-margin-b-tiny {
+    margin-bottom: 0.5vh;
+}
+
+.vl-margin-b-small {
+    margin-bottom: 1vh;
+}
+
+.vl-margin-b-medium {
+    margin-bottom: 1.5vh;
+}
+
+.vl-margin-b-large {
+    margin-bottom: 2vh;
+}
+
+.vl-margin-b-huge {
+    margin-bottom: 2.5vh;
+}
+
+/* Padding */
+
+.vl-padding-none {
+    padding: 0;
+}
+
+.vl-padding-tiny {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+
+.vl-padding-small {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.vl-padding-medium {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+.vl-padding-large {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.vl-padding-huge {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.vl-padding-h-tiny {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.vl-padding-h-small {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.vl-padding-h-medium {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+.vl-padding-h-large {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.vl-padding-h-huge {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+.vl-padding-v-tiny {
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+
+.vl-padding-v-small {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.vl-padding-v-medium {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+.vl-padding-v-large {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.vl-padding-v-huge {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.vl-padding-l-tiny {
+    padding-left: 0.5vw;
+}
+
+.vl-padding-l-small {
+    padding-left: 1vw;
+}
+
+.vl-padding-l-medium {
+    padding-left: 1.5vw;
+}
+
+.vl-padding-l-large {
+    padding-left: 2vw;
+}
+
+.vl-padding-l-huge {
+    padding-left: 2.5vw;
+}
+
+.vl-padding-r-tiny {
+    padding-right: 0.5vw;
+}
+
+.vl-padding-r-small {
+    padding-right: 1vw;
+}
+
+.vl-padding-r-medium {
+    padding-right: 1.5vw;
+}
+
+.vl-padding-r-large {
+    padding-right: 2vw;
+}
+
+.vl-padding-r-huge {
+    padding-right: 2.5vw;
+}
+
+.vl-padding-t-tiny {
+    padding-top: 0.5vh;
+}
+
+.vl-padding-t-small {
+    padding-top: 1vh;
+}
+
+.vl-padding-t-medium {
+    padding-top: 1.5vh;
+}
+
+.vl-padding-t-large {
+    padding-top: 2vh;
+}
+
+.vl-padding-t-huge {
+    padding-top: 2.5vh;
+}
+
+.vl-padding-b-tiny {
+    padding-bottom: 0.5vh;
+}
+
+.vl-padding-b-small {
+    padding-bottom: 1vh;
+}
+
+.vl-padding-b-medium {
+    padding-bottom: 1.5vh;
+}
+
+.vl-padding-b-large {
+    padding-bottom: 2vh;
+}
+
+.vl-padding-b-huge {
+    padding-bottom: 2.5vh;
+}
+
+/* Text */
+
+.vl-text-light {
+    font-weight: 100;
+}
+
+.vl-text-small {
+    font-size: 1.6vh;
+}
+
+.vl-text-large {
+    font-size: 2.5vh;
+}
+
+/* Positioning */
+
+.vl-absolute-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
