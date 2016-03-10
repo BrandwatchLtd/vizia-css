@@ -412,11 +412,17 @@
 }
 
 .vl-text-small {
-    font-size: 1.6vh;
+    font-size: 1.5vmin;
 }
 
 .vl-text-large {
-    font-size: 2.5vh;
+    font-size: 2.5vmin;
+}
+
+.vl-ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 /* Positioning */
