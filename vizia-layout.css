@@ -430,6 +430,10 @@
     overflow: hidden;
 }
 
+.vl-text-huge {
+    font-size: 6vh;
+}
+
 /* Positioning */
 
 .vl-absolute-center {
@@ -451,4 +455,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+/* Tables */
+
+.vl-table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }

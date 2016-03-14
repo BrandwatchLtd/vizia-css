@@ -24,6 +24,10 @@
     border-color: #404045;
 }
 
+.vc-alt-bg {
+    background-color: rgba(229, 229, 234, 0.1);
+}
+
 .vc-hairline {
     border-color: #545459;
 }
