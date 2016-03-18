@@ -441,3 +441,9 @@
     top: 0;
     bottom: 0;
 }
+
+.vl-bg-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
