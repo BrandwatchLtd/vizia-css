@@ -1,11 +1,26 @@
 {
   "name": "vizia-css",
-  "version": "1.0.4",
-  "description": "Reusable styles for Brandwatch Vizia",
+  "main": "build/vizia-style.min.css",
+  "version": "1.0.8",
+  "description": "Reusable CSS for Brandwatch Vizia",
   "repository": "BrandwatchLtd/vizia-css",
-  "license": "MIT",
+  "people": {
+    "contributors": [
+      "Luis Capel <luis@brandwatch.com>",
+      "Dan Neame <daniel@brandwatch.com>"
+    ]
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "mkdirp build && cleancss -o build/vizia-style.min.css vizia-style.css",
+    "postinstall": "cp pre-commit .git/hooks/pre-commit"
+  },
   "bugs": {
     "url": "https://github.com/BrandwatchLtd/vizia-css/issues"
   },
-  "homepage": "https://github.com/BrandwatchLtd/vizia-css#readme"
+  "homepage": "https://github.com/BrandwatchLtd/vizia-css#readme",
+  "devDependencies": {
+    "clean-css": "3.4.10",
+    "mkdirp": "0.5.1"
+  }
 }
