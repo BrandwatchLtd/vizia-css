@@ -424,14 +424,14 @@
     font-size: 2.5vmin;
 }
 
+.vl-text-huge {
+    font-size: 6vh;
+}
+
 .vl-ellipsis {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-}
-
-.vl-text-huge {
-    font-size: 6vh;
 }
 
 /* Positioning */
