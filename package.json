@@ -13,7 +13,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "mkdirp build && cleancss -o build/vizia-style.min.css vizia-style.css",
-    "postinstall": "cp pre-commit .git/hooks/pre-commit"
+    "prepublish": "cp pre-commit .git/hooks/pre-commit"
   },
   "bugs": {
     "url": "https://github.com/BrandwatchLtd/vizia-css/issues"
