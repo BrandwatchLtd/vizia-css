@@ -12,6 +12,18 @@
     color: #00ACED;
 }
 
+.vc-text-positive {
+    color: #68BE2E;
+}
+
+.vc-text-neutral {
+    color: #8B8B8F;
+}
+
+.vc-text-negative {
+    color: #C9262C;
+}
+
 .vc-bg {
     background: #404045;
 }
