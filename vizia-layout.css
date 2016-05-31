@@ -434,6 +434,12 @@
     overflow: hidden;
 }
 
+/* Visibility */
+
+.vl-hidden {
+    display: none;
+}
+
 /* Positioning */
 
 .vl-absolute-center {
