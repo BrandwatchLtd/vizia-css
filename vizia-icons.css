@@ -1,0 +1,15 @@
+.vi-arrow-up::before {
+    content: "\25b2";
+}
+
+.vi-arrow-right::before {
+    content: "\25b6";
+}
+
+.vi-arrow-down::before {
+    content: "\25bc";
+}
+
+.vi-arrow-left::before {
+    content: "\25c0";
+}
