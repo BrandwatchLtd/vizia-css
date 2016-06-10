@@ -425,7 +425,11 @@
 }
 
 .vl-text-huge {
-    font-size: 6vh;
+    font-size: 6vmin;
+}
+
+.vl-text-x-huge {
+    font-size: 10vmin;
 }
 
 .vl-ellipsis {
