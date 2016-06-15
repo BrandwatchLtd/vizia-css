@@ -3,7 +3,7 @@
   "main": "build/vizia-style.min.css",
   "version": "1.0.13",
   "description": "Reusable CSS for Brandwatch Vizia",
-  "repository": "BrandwatchLtd/vizia-css",
+  "repository": "github:vizia/vizia-css",
   "people": {
     "contributors": [
       "Luis Capel <luis@brandwatch.com>",
@@ -16,9 +16,9 @@
     "prepublish": "cp pre-commit .git/hooks/pre-commit"
   },
   "bugs": {
-    "url": "https://github.com/BrandwatchLtd/vizia-css/issues"
+    "url": "https://github.com/vizia/vizia-css/issues"
   },
-  "homepage": "https://github.com/BrandwatchLtd/vizia-css#readme",
+  "homepage": "https://github.com/vizia/vizia-css#readme",
   "devDependencies": {
     "clean-css": "3.4.10",
     "mkdirp": "0.5.1"
