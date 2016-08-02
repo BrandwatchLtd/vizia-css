@@ -2,26 +2,32 @@
 
 .vc-text {
     color: #E5E5EA;
+    fill: #E5E5EA;
 }
 
 .vc-text-error {
     color: #C9262C;
+    fill: #C9262C;
 }
 
 .vc-text-highlight {
     color: #00ACED;
+    fill: #00ACED;
 }
 
 .vc-text-positive {
     color: #68BE2E;
+    fill: #68BE2E;
 }
 
 .vc-text-neutral {
     color: #8B8B8F;
+    fill: #8B8B8F;
 }
 
 .vc-text-negative {
     color: #C9262C;
+    fill: #C9262C;
 }
 
 .vc-bg {
