@@ -75,168 +75,153 @@
 }
 
 .vl-margin-tiny {
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
-    margin-top: 0.5vh;
-    margin-bottom: 0.5vh;
+    margin: 0.5vmin;
 }
 
 .vl-margin-small {
-    margin-left: 1vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin: 1vmin;
 }
 
 .vl-margin-medium {
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
+    margin: 1.5vmin;
 }
 
 .vl-margin-large {
-    margin-left: 2vw;
-    margin-right: 2vw;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin: 2vmin;
 }
 
 .vl-margin-huge {
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
+    margin: 2.5vmin;
 }
 
 .vl-margin-h-tiny {
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
+    margin-left: 0.5vmin;
+    margin-right: 0.5vmin;
 }
 
 .vl-margin-h-small {
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 1vmin;
+    margin-right: 1vmin;
 }
 
 .vl-margin-h-medium {
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
+    margin-left: 1.5vmin;
+    margin-right: 1.5vmin;
 }
 
 .vl-margin-h-large {
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 2vmin;
+    margin-right: 2vmin;
 }
 
 .vl-margin-h-huge {
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
+    margin-left: 2.5vmin;
+    margin-right: 2.5vmin;
 }
 
 .vl-margin-v-tiny {
-    margin-top: 0.5vh;
-    margin-bottom: 0.5vh;
+    margin-top: 0.5vmin;
+    margin-bottom: 0.5vmin;
 }
 
 .vl-margin-v-small {
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
 }
 
 .vl-margin-v-medium {
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
+    margin-top: 1.5vmin;
+    margin-bottom: 1.5vmin;
 }
 
 .vl-margin-v-large {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
 }
 
 .vl-margin-v-huge {
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
+    margin-top: 2.5vmin;
+    margin-bottom: 2.5vmin;
 }
 
 .vl-margin-l-tiny {
-    margin-left: 0.5vw;
+    margin-left: 0.5vmin;
 }
 
 .vl-margin-l-small {
-    margin-left: 1vw;
+    margin-left: 1vmin;
 }
 
 .vl-margin-l-medium {
-    margin-left: 1.5vw;
+    margin-left: 1.5vmin;
 }
 
 .vl-margin-l-large {
-    margin-left: 2vw;
+    margin-left: 2vmin;
 }
 
 .vl-margin-l-huge {
-    margin-left: 2.5vw;
+    margin-left: 2.5vmin;
 }
 
 .vl-margin-r-tiny {
-    margin-right: 0.5vw;
+    margin-right: 0.5vmin;
 }
 
 .vl-margin-r-small {
-    margin-right: 1vw;
+    margin-right: 1vmin;
 }
 
 .vl-margin-r-medium {
-    margin-right: 1.5vw;
+    margin-right: 1.5vmin;
 }
 
 .vl-margin-r-large {
-    margin-right: 2vw;
+    margin-right: 2vmin;
 }
 
 .vl-margin-r-huge {
-    margin-right: 2.5vw;
+    margin-right: 2.5vmin;
 }
 
 .vl-margin-t-tiny {
-    margin-top: 0.5vh;
+    margin-top: 0.5vmin;
 }
 
 .vl-margin-t-small {
-    margin-top: 1vh;
+    margin-top: 1vmin;
 }
 
 .vl-margin-t-medium {
-    margin-top: 1.5vh;
+    margin-top: 1.5vmin;
 }
 
 .vl-margin-t-large {
-    margin-top: 2vh;
+    margin-top: 2vmin;
 }
 
 .vl-margin-t-huge {
-    margin-top: 2.5vh;
+    margin-top: 2.5vmin;
 }
 
 .vl-margin-b-tiny {
-    margin-bottom: 0.5vh;
+    margin-bottom: 0.5vmin;
 }
 
 .vl-margin-b-small {
-    margin-bottom: 1vh;
+    margin-bottom: 1vmin;
 }
 
 .vl-margin-b-medium {
-    margin-bottom: 1.5vh;
+    margin-bottom: 1.5vmin;
 }
 
 .vl-margin-b-large {
-    margin-bottom: 2vh;
+    margin-bottom: 2vmin;
 }
 
 .vl-margin-b-huge {
-    margin-bottom: 2.5vh;
+    margin-bottom: 2.5vmin;
 }
 
 /* Padding */
@@ -246,168 +231,153 @@
 }
 
 .vl-padding-tiny {
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
+    padding: 0.5vmin;
 }
 
 .vl-padding-small {
-    padding-left: 1vw;
-    padding-right: 1vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding: 1vmin;
 }
 
 .vl-padding-medium {
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
+    padding: 1.5vmin;
 }
 
 .vl-padding-large {
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding: 2vmin;
 }
 
 .vl-padding-huge {
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-    padding-top: 2.5vh;
-    padding-bottom: 2.5vh;
+    padding: 2.5vmin;
 }
 
 .vl-padding-h-tiny {
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
 }
 
 .vl-padding-h-small {
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
 }
 
 .vl-padding-h-medium {
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
+    padding-left: 1.5vmin;
+    padding-right: 1.5vmin;
 }
 
 .vl-padding-h-large {
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 2vmin;
+    padding-right: 2vmin;
 }
 
 .vl-padding-h-huge {
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
+    padding-left: 2.5vmin;
+    padding-right: 2.5vmin;
 }
 
 .vl-padding-v-tiny {
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
+    padding-top: 0.5vmin;
+    padding-bottom: 0.5vmin;
 }
 
 .vl-padding-v-small {
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
 }
 
 .vl-padding-v-medium {
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
+    padding-top: 1.5vmin;
+    padding-bottom: 1.5vmin;
 }
 
 .vl-padding-v-large {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
 }
 
 .vl-padding-v-huge {
-    padding-top: 2.5vh;
-    padding-bottom: 2.5vh;
+    padding-top: 2.5vmin;
+    padding-bottom: 2.5vmin;
 }
 
 .vl-padding-l-tiny {
-    padding-left: 0.5vw;
+    padding-left: 0.5vmin;
 }
 
 .vl-padding-l-small {
-    padding-left: 1vw;
+    padding-left: 1vmin;
 }
 
 .vl-padding-l-medium {
-    padding-left: 1.5vw;
+    padding-left: 1.5vmin;
 }
 
 .vl-padding-l-large {
-    padding-left: 2vw;
+    padding-left: 2vmin;
 }
 
 .vl-padding-l-huge {
-    padding-left: 2.5vw;
+    padding-left: 2.5vmin;
 }
 
 .vl-padding-r-tiny {
-    padding-right: 0.5vw;
+    padding-right: 0.5vmin;
 }
 
 .vl-padding-r-small {
-    padding-right: 1vw;
+    padding-right: 1vmin;
 }
 
 .vl-padding-r-medium {
-    padding-right: 1.5vw;
+    padding-right: 1.5vmin;
 }
 
 .vl-padding-r-large {
-    padding-right: 2vw;
+    padding-right: 2vmin;
 }
 
 .vl-padding-r-huge {
-    padding-right: 2.5vw;
+    padding-right: 2.5vmin;
 }
 
 .vl-padding-t-tiny {
-    padding-top: 0.5vh;
+    padding-top: 0.5vmin;
 }
 
 .vl-padding-t-small {
-    padding-top: 1vh;
+    padding-top: 1vmin;
 }
 
 .vl-padding-t-medium {
-    padding-top: 1.5vh;
+    padding-top: 1.5vmin;
 }
 
 .vl-padding-t-large {
-    padding-top: 2vh;
+    padding-top: 2vmin;
 }
 
 .vl-padding-t-huge {
-    padding-top: 2.5vh;
+    padding-top: 2.5vmin;
 }
 
 .vl-padding-b-tiny {
-    padding-bottom: 0.5vh;
+    padding-bottom: 0.5vmin;
 }
 
 .vl-padding-b-small {
-    padding-bottom: 1vh;
+    padding-bottom: 1vmin;
 }
 
 .vl-padding-b-medium {
-    padding-bottom: 1.5vh;
+    padding-bottom: 1.5vmin;
 }
 
 .vl-padding-b-large {
-    padding-bottom: 2vh;
+    padding-bottom: 2vmin;
 }
 
 .vl-padding-b-huge {
-    padding-bottom: 2.5vh;
+    padding-bottom: 2.5vmin;
 }
 
 /* Text */
