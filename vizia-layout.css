@@ -1,3 +1,9 @@
+/* General */
+
+.vl-dib {
+    display: inline-block;
+}
+
 /* Flexbox */
 
 .vl-flex-row,
