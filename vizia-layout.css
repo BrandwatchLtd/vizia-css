@@ -388,12 +388,28 @@
 
 /* Text */
 
-.vl-text-light {
+.vl-text-thin {
     font-weight: 100;
+}
+
+.vl-text-light {
+    font-weight: 300;
+}
+
+.vl-text-regular {
+    font-weight: 400;
+}
+
+.vl-text-bold {
+    font-weight: 700;
 }
 
 .vl-text-small {
     font-size: 1.5vmin;
+}
+
+.vl-text-medium {
+    font-size: 2vmin;
 }
 
 .vl-text-large {
