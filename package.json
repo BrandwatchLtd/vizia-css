@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/vizia/vizia-css#readme",
   "devDependencies": {
-    "clean-css": "3.4.10",
+    "clean-css": "3.4.19",
     "mkdirp": "0.5.1"
   }
 }
