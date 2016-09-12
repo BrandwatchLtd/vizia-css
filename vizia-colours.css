@@ -36,11 +36,11 @@
 }
 
 .vc-bg {
-    background-color: #404045;
+    background: #404045;
 }
 
 .vc-tile-bg {
-    background-color: #36363B;
+    background: #36363B;
 }
 
 .vc-tile-border {
@@ -60,39 +60,39 @@
 }
 
 .vc-message-ticker-default {
-  background-color: rgba(74, 74, 79, 0.9);
-  color: #E5E5EA;
+    background: rgba(74, 74, 79, 0.9);
+    color: #E5E5EA;
 }
 
 .vc-message-popup-default {
-  background-color: rgba(74, 74, 79, 0.9);
-  color: #E5E5EA;
+    background: rgba(74, 74, 79, 0.9);
+    color: #E5E5EA;
 }
 
 .vc-message-ticker-success,
 .vc-message-popup-success {
-  background-color: rgba(104, 190, 46, 0.9);
-  color: #FFFFFF;
+    background: rgba(104, 190, 46, 0.9);
+    color: #FFFFFF;
 }
 
 .vc-message-ticker-warning,
 .vc-message-popup-warning {
-  background-color: rgba(201, 38, 44, 0.9);
-  color: #FFFFFF;
+    background: rgba(201, 38, 44, 0.9);
+    color: #FFFFFF;
 }
 
 .vc-message-ticker-information,
 .vc-message-popup-information {
-    background-color: rgba(96, 166, 213, 0.9);
+    background: rgba(96, 166, 213, 0.9);
     color: #FFFFFF;
 }
 
 .vc-two-tone-vertical {
-  background-image: linear-gradient(to bottom, #36363B 50%, #545459 50%);
+    background-image: linear-gradient(to bottom, #36363B 50%, #545459 50%);
 }
 
 .vc-two-tone-horizontal {
-  background-image: linear-gradient(to right, #36363B 50%, #545459 50%);
+    background-image: linear-gradient(to right, #36363B 50%, #545459 50%);
 }
 
 .vc-highlight-panel {
@@ -110,6 +110,6 @@
 /* Panel */
 
 .vc-panel {
-    background-color: #FFFFFF;
+    background: #FFFFFF;
     color: #333333;
 }
