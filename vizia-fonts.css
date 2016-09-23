@@ -1,3 +1,4 @@
-body {
+body,
+svg text {
     font-family: Roboto, sans-serif;
 }
