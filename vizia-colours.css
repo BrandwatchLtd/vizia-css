@@ -55,6 +55,10 @@
     background-color: rgba(229, 229, 234, 0.1);
 }
 
+.vc-line {
+    stroke: #E5E5EA;
+}
+
 .vc-hairline {
     border-color: #545459;
 }
