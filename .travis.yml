@@ -1,0 +1,4 @@
+language: node_js
+before_install:
+  - npm install --global npm@5
+  - echo -e "//npme.brandwatch.com:8080/:_authToken=\${NPM_TOKEN}\n@vizia:registry=https://npme.brandwatch.com:8080" > .npmrc

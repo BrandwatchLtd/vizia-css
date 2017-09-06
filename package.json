@@ -1,5 +1,5 @@
 {
-  "name": "vizia-css",
+  "name": "@vizia/vizia-css",
   "main": "build/vizia-style.min.css",
   "version": "1.1.0",
   "description": "Reusable CSS for Brandwatch Vizia",
@@ -22,5 +22,8 @@
   "devDependencies": {
     "clean-css": "3.4.19",
     "mkdirp": "0.5.1"
+  },
+  "publishConfig": {
+    "registry": "https://npme.brandwatch.com:8080"
   }
 }
