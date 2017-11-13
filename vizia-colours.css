@@ -63,6 +63,10 @@
     border-color: #545459;
 }
 
+.vc-svg-hairline {
+    stroke: #545459;
+}
+
 .vc-message-ticker-default {
     background: rgba(74, 74, 79, 0.9);
     color: #E5E5EA;
