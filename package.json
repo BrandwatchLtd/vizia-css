@@ -6,8 +6,7 @@
   "repository": "github:vizia/vizia-css",
   "people": {
     "contributors": [
-      "Luis Capel <luis@brandwatch.com>",
-      "Dan Neame <daniel@brandwatch.com>"
+      "Luis Capel <luis@brandwatch.com>"
     ]
   },
   "license": "UNLICENSED",
@@ -20,7 +19,7 @@
   },
   "homepage": "https://github.com/vizia/vizia-css#readme",
   "devDependencies": {
-    "clean-css": "3.4.19",
+    "clean-css-cli": "4.1.10",
     "mkdirp": "0.5.1"
   },
   "publishConfig": {
