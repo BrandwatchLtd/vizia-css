@@ -23,6 +23,6 @@
     "mkdirp": "0.5.1"
   },
   "publishConfig": {
-    "registry": "https://npme.brandwatch.com:8080"
+    "registry": "https://registry.brandwatch.npme.io"
   }
 }
