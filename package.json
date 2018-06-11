@@ -1,7 +1,7 @@
 {
   "name": "@vizia/vizia-css",
   "main": "build/vizia-style.min.css",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Reusable CSS for Brandwatch Vizia",
   "repository": "github:vizia/vizia-css",
   "people": {
