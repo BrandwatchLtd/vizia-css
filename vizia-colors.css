@@ -1,0 +1,106 @@
+:root {
+    /* Text colors */
+    --vc--text: #e5e5ea;
+    --vc--positive: #68be2e;
+    --vc--neutral: #8b8b8f;
+    --vc--negative: #c9262c;
+    --vc--highlight: #00aced;
+    --vc--highlight-panel-text: #333a3e;
+    /* Panel/Border colors */
+    --vc--background: #404045 none repeat scroll 0 0 / auto auto;
+    --vc--panel-background: #36363b;
+    --vc--alt-background: #404045;
+    --vc--tile-border: #404045;
+    --vc--hairline: #545459;
+    /* Other colors */
+    --vc--globe-land: #000000;
+    --vc--globe-water: #333336;
+    --vc--chart-line: #1f8dc3;
+    /* Legacy version of the above */
+    --history-tile-line-colour: #1f8dc3;
+    /* Copy */
+    --powered-by-text: '';
+}
+
+.vc-text {
+    color: var(--vc--text);
+    fill: var(--vc--text);
+}
+
+.vc-text-positive {
+    color: var(--vc--positive);
+    fill: var(--vc--positive);
+}
+
+.vc-text-neutral {
+    color: var(--vc--neutral);
+    fill: var(--vc--neutral);
+}
+
+.vc-text-negative {
+    color: var(--vc--negative);
+    fill: var(--vc--negative);
+}
+
+.vc-text-error {
+    color: var(--vc--negative);
+    fill: var(--vc--negative);
+}
+
+.vc-text-highlight {
+    color: var(--vc--highlight);
+    fill: var(--vc--highlight);
+}
+
+.vc-bg {
+    background: var(--vc--background);
+}
+
+.vc-tile-bg {
+    background: var(--vc--panel-background);
+}
+
+.vc-tile-border {
+    border-color: var(--vc--tile-border);
+}
+
+.vc-alt-bg {
+    background-color: var(--vc--alt-background);
+}
+
+.vc-line {
+    stroke: var(--vc--text);
+}
+
+.vc-hairline {
+    border-color: var(--vc--hairline);
+}
+
+.vc-svg-hairline {
+    stroke: var(--vc--hairline);
+}
+
+.vc-highlight-panel {
+    background-color: var(--vc--highlight);
+    color: var(--vc--highlight-panel-text);
+}
+
+.globeLand {
+    stroke: var(--vc--globe-land);
+}
+
+.globeOceanPrimaryColour {
+    fill: var(--vc--globe-water);
+}
+
+.ls-globe-land {
+    fill: var(--vc--background);
+}
+
+.ls-globe-water {
+    fill: var(--vc--panel-background);
+}
+
+.sceneRotator:after {
+    content: var(--powered-by-text);
+}
