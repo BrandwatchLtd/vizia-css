@@ -2,21 +2,19 @@
   "name": "@vizia/vizia-css",
   "main": "build/vizia-style.min.css",
   "version": "3.1.0",
-  "description": "Reusable CSS for Brandwatch Vizia",
+  "description": "Vizia styles",
   "repository": "github:vizia/vizia-css",
   "publishConfig": {
     "registry": "https://artifactory.brandwatch.com/artifactory/api/npm/npm"
   },
   "people": {
     "contributors": [
-      "Luis Capel <luis@brandwatch.com>"
+      "Luis Capel <luis@brandwatch.com>",
+      "Stefan Pearson <stefanp@brandwatch.com>"
     ]
   },
   "license": "UNLICENSED",
-  "scripts": {
-    "build": "mkdirp build && cleancss -o build/vizia-style.min.css vizia-style.css",
-    "prepublish": "cp pre-commit .git/hooks/pre-commit"
-  },
+  "scripts": {},
   "bugs": {
     "url": "https://github.com/vizia/vizia-css/issues"
   },

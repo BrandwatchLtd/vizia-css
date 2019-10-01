@@ -1,0 +1,110 @@
+/**
+ * Units
+ */
+:root {
+    /* Grid measure */
+    --viz-unit-measure: calc(0.3rem);
+    /* Gutter */
+    --viz-unit-gutter: calc(var(--viz-unit-measure) * 8);
+}
+
+/**
+ * Type
+ */
+:root {
+    /* Base font-face */
+    --viz-type-face-base: 'Roboto', sans-serif;
+    /* Weight for light */
+    --viz-type-weight-light: 300;
+    /* Weight for normal/default */
+    --viz-type-weight-normal: 400;
+    /* Weight for bold */
+    --viz-type-weight-bold: 600;
+    /* Weight for heavy */
+    --viz-type-weight-heavy: 700;
+    /* Base size:leading ratio (equivalent of line-height 1.5) */
+    --viz-type-ratio-base: calc(2 / 3);
+    /* Tight size:leading ratio (equivalent of line-height 1.2) */
+    --viz-type-ratio-tight: calc(5 / 6);
+}
+
+/**
+ * Colors constants
+ */
+:root {
+    /* Black point */
+    --viz-color-black: #212121;
+    /* White point */
+    --viz-color-white: #ffffff;
+    /* Positive sentiment or sign */
+    --viz-color-positive: #4ca15a;
+    /* Negative sentiment or sign */
+    --viz-color-negative: #d74a4a;
+    /* Neutral sentiment or sign */
+    --viz-color-neutral: #a7a2b3;
+    /* Action failure */
+    --viz-color-failure: #fc4870;
+    /* Action success */
+    --viz-color-success: #00be96;
+    /* Accent */
+    --viz-color-accent: #239edb;
+}
+
+
+/**
+ * Dark mode
+ */
+:root {
+    /* Frame background color */
+    --viz-dark-color-frame-bg: var(--viz-color-black);
+    /* Background color */
+    --viz-dark-color-bg: #2b2b2b;
+    /* Background color, pulled towards base color */
+    --viz-dark-color-bg--pull-1: #353535;
+    /* Background color, pulled more towards base color */
+    --viz-dark-color-bg--pull-2: #3f3f3f;
+    /* Base color (e.g. text) */
+    --viz-dark-color-base: #f7f5fc;
+    /* Base color, pushed towards background color */
+    --viz-dark-color-base--push-1: #edebf2;
+    /* Base color, pushed more towards background color */
+    --viz-dark-color-base--push-2: #e3e1e8;
+    /* Layer shadow (e.g. cards) */
+    --viz-dark-layer-shadow: rgba(33,33,33,0.15);
+}
+
+/**
+ * Light mode
+ */
+:root {
+    /* Frame background color */
+    --viz-light-color-frame-bg: #edebf2;
+    /* Background color */
+    --viz-light-color-bg: var(--viz-color-white);
+    /* Background color, pulled towards base color */
+    --viz-light-color-bg--pull-1: #f7f5fc;
+    /* Background color, pulled more towards base color */
+    --viz-light-color-bg--pull-2: #edebf2;
+    /* Base color (e.g. text) */
+    --viz-light-color-base: #3f3f3f;
+    /* Base color, pushed towards background color */
+    --viz-light-color-base--push-1: #48464d;
+    /* Base color, pushed more towards background color */
+    --viz-light-color-base--push-2: var(--viz-color-neutral);
+    /* Layer shadow (e.g. cards) */
+    --viz-light-layer-shadow: rgba(33,33,33,0.15);
+}
+
+/**
+ * Mode defaults
+ */
+:root {
+     --viz-color-frame-bg: var(--viz-dark-color-frame-bg);
+     --viz-color-bg: var(--viz-dark-color-bg);
+     --viz-color-bg--pull-1: var(--viz-dark-color-bg--pull-1);
+     --viz-color-bg--pull-2: var(--viz-dark-color-bg--pull-2);
+     --viz-color-base: var(--viz-dark-color-base);
+     --viz-color-base--push-1: var(--viz-dark-color-base--push-1);
+     --viz-color-base--push-2: var(--viz-dark-color-base--push-2);
+     --viz-layer-shadow: var(--viz-dark-layer-shadow);
+}

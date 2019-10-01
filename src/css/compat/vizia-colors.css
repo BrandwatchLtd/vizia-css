@@ -18,6 +18,7 @@
     --vc--chart-line: #1f8dc3;
     /* Legacy version of the above */
     --history-tile-line-colour: #1f8dc3;
+
     /* Copy */
     --powered-by-text: '';
 }
@@ -99,8 +100,4 @@
 
 .ls-globe-water {
     fill: var(--vc--panel-background);
-}
-
-.sceneRotator:after {
-    content: var(--powered-by-text);
 }

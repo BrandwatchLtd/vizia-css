@@ -1,2 +1,3 @@
-# vizia-css
-Reusable styles for Brandwatch Vizia
+# Vizia Styles
+
+Reusable styles for Brandwatch Vizia.
