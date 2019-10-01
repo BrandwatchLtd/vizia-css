@@ -4,6 +4,9 @@
   "version": "3.0.0",
   "description": "Reusable CSS for Brandwatch Vizia",
   "repository": "github:vizia/vizia-css",
+  "publishConfig": {
+    "registry": "https://artifactory.brandwatch.com/artifactory/api/npm/npm"
+  },
   "people": {
     "contributors": [
       "Luis Capel <luis@brandwatch.com>"
@@ -21,8 +24,5 @@
   "devDependencies": {
     "clean-css-cli": "4.3.0",
     "mkdirp": "0.5.1"
-  },
-  "publishConfig": {
-    "registry": "https://registry.brandwatch.npme.io"
   }
 }
