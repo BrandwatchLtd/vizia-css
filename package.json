@@ -19,8 +19,5 @@
     "url": "https://github.com/vizia/vizia-css/issues"
   },
   "homepage": "https://github.com/vizia/vizia-css#readme",
-  "devDependencies": {
-    "clean-css-cli": "4.3.0",
-    "mkdirp": "0.5.1"
-  }
+  "devDependencies": {}
 }

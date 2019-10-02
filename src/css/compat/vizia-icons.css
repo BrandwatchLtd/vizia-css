@@ -1,3 +1,8 @@
+/**
+ * DEPRECATED
+ * DO NOT USE when moving forwards, this will be removed
+ */
+
 .vi-arrow-up::before {
     content: "\25b2";
 }
