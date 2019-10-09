@@ -7,17 +7,15 @@
   "publishConfig": {
     "registry": "https://artifactory.brandwatch.com/artifactory/api/npm/npm"
   },
-  "people": {
-    "contributors": [
-      "Luis Capel <luis@brandwatch.com>",
-      "Stefan Pearson <stefanp@brandwatch.com>"
-    ]
-  },
-  "license": "UNLICENSED",
   "scripts": {},
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/vizia/vizia-css/issues"
   },
   "homepage": "https://github.com/vizia/vizia-css#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "@vizia/eslint-config": "^2.0.3",
+    "eslint": "^6.5.1"
+  },
+  "dependencies": {}
 }
