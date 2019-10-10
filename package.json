@@ -1,6 +1,6 @@
 {
   "name": "@vizia/vizia-css",
-  "main": "build/vizia-style.min.css",
+  "main": "./build/vizia-style.min.css",
   "version": "3.1.0",
   "description": "Vizia styles",
   "repository": "github:vizia/vizia-css",

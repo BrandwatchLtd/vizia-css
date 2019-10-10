@@ -1,9 +1,3 @@
-:root {
-    /* Root font-size = 10px / 0.1rem = 1px */
-    font-size: 62.5%;
-    font-size-adjust: 100%;
-}
-
 * {
     padding: 0;
     border: 0;
@@ -11,7 +5,14 @@
     box-sizing: border-box;
 }
 
-body {
+:root {
+    font-size: 62.5%; /* Root font-size = 10px / 0.1rem = 1px */
+    font-size-adjust: 100%;
+    user-select: none;
+}
+
+:root,
+text {
     font-family: var(--viz-type-face-base);
     font-weight: var(--viz-type-weight-normal);
     -webkit-font-smoothing: antialiased;
@@ -19,5 +20,4 @@ body {
     font-smoothing: always;
     text-rendering: optimizeLegibility;
     text-decoration-skip-ink: auto;
-    user-select: none;
 }

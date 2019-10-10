@@ -383,15 +383,15 @@
 }
 
 .vl-text-light {
-    font-weight: 300;
+    font-weight: var(--viz-type-weight-light);
 }
 
 .vl-text-regular {
-    font-weight: 400;
+    font-weight: var(--viz-type-weight-normal);
 }
 
 .vl-text-bold {
-    font-weight: 700;
+    font-weight: var(--viz-type-weight-bold);
 }
 
 .vl-text-small {
