@@ -1,0 +1,10 @@
+{
+    "env": {
+        "commonjs": true,
+        "node": true
+    },
+    "extends": "@vizia/eslint-config/ES2015",
+    "parserOptions": {
+        "ecmaVersion": 2017
+    }
+}

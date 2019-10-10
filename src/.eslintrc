@@ -1,8 +1,0 @@
-{
-    "env": {
-        "commonjs": true,
-        "browser": true,
-        "node": true
-    },
-    "extends": "@vizia/eslint-config/ES2015"
-}
