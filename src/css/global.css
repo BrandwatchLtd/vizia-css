@@ -1,16 +1,27 @@
-* {
+/**
+ * Normalizes box model
+ */
+*,
+*:before,
+*:after {
     padding: 0;
     border: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/**
+ * Sets root scale for rem values
+ * Ensures same root scale as Axiom, to not conflict in the same document
+ */
 :root {
-    font-size: 62.5%; /* Root font-size = 10px / 0.1rem = 1px */
+    font-size: 100%;
     font-size-adjust: 100%;
-    user-select: none;
 }
 
+/**
+ * Base type and rendering mode
+ */
 :root,
 text {
     font-family: var(--viz-type-face-base);
@@ -20,4 +31,9 @@ text {
     font-smoothing: always;
     text-rendering: optimizeLegibility;
     text-decoration-skip-ink: auto;
+}
+
+/* Prevents highlighting */
+:root {
+    user-select: none;
 }
