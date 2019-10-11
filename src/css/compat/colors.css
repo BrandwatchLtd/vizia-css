@@ -1,0 +1,251 @@
+/**
+ * DEPRECATED
+ * DO NOT USE when moving forwards, this will be removed
+ * Use custom properties and component-based classes instead
+ */
+
+:root {
+    /**
+     * Text colors
+     */
+
+    /**
+     * Used in:
+     * destination-feed (last checked 0.2.7)
+     * destination-force-quadrant (last checked 1.1.5)
+     * destination-highcharts (last checked 1.3.3)
+     * bootstrap
+     */
+    --vc--text: var(--viz-color-base);
+
+    /**
+     * Used in:
+     * destination-force-quadrant (last checked 1.1.5)
+     */
+    --vc--positive: var(--viz-color-positive);
+
+    /* Not used (except for helper class) */
+    --vc--neutral: var(--viz-color-neutral);
+
+    /**
+     * Used in:
+     * destination-force-quadrant (last checked 1.1.5)
+     */
+    --vc--negative: var(--viz-color-negative);
+
+    /**
+     * Used in:
+     * destination-feed (last checked 0.2.7)
+     */
+    --vc--highlight: var(--viz-color-accent);
+
+    /* Not used (except for helper class) */
+    --vc--highlight-panel-text: var(--viz-color-base-highlight);
+
+    /**
+     * Panel/Border colors
+     */
+
+     /**
+      * Used in:
+      * destination-feed (last checked 0.2.7)
+      */
+    --vc--background: var(--viz-color-frame);
+
+    /**
+     * Used in:
+     * destination-feed (last checked 0.2.7)
+     * destination-highcharts (last checked 1.3.3)
+     */
+    --vc--panel-background: var(--viz-color-bg);
+
+    /* Not used (except for helper class) */
+    --vc--alt-background: var(--viz-color-bg-shift-1);
+
+    /**
+     * Used in:
+     * destination-highcharts (last checked 1.3.3)
+     */
+    --vc--hairline: var(--viz-color-bg-shift-2);
+
+    /**
+     * Other colors
+     */
+
+    /* Not used (except for helper class) */
+    --vc--globe-land: var(--viz-color-frame);
+
+    /* Not used (except for helper class) */
+    --vc--globe-water: var(--viz-color-bg-shift-1);
+
+    /**
+     * Copy
+     */
+
+    /**
+     * Used in:
+     * bootstrap
+     */
+    --powered-by-text: '';
+}
+
+/**
+ * Used in:
+ * destination-frequency-heatmap (last checked 2.0.2)
+ * destination-stream-graph (last checked 4.0.14)
+ * bootstrap
+ * bundle-loader
+ * Legacy assets bundles
+ */
+.vc-text {
+    color: var(--vc--text);
+    fill: var(--vc--text);
+}
+
+/**
+ * Used in:
+ * Legacy assets bundles
+ */
+.vc-text-positive {
+    color: var(--vc--positive);
+    fill: var(--vc--positive);
+}
+
+/**
+ * Used in:
+ * bootstrap2
+ * Legacy assets bundles
+ */
+.vc-text-neutral {
+    color: var(--vc--neutral);
+    fill: var(--vc--neutral);
+}
+
+/**
+ * Used in:
+ * Legacy assets bundles
+ */
+.vc-text-negative {
+    color: var(--vc--negative);
+    fill: var(--vc--negative);
+}
+
+/**
+ * Used in:
+ * bootstrap
+ */
+.vc-text-error {
+    color: var(--vc--negative);
+    fill: var(--vc--negative);
+}
+
+/**
+ * Used in:
+ * destination-rich-text (last checked 2.2.5)
+ * destination-table (last checked 10.6.4)
+ * Legacy assets bundles
+ */
+.vc-text-highlight {
+    color: var(--vc--highlight);
+    fill: var(--vc--highlight);
+}
+
+/**
+ * Used in:
+ * bootstrap
+ * boostrap2
+ * Legacy assets bundles
+ */
+.vc-bg {
+    background: var(--vc--background);
+}
+
+/*
+ * Used in:
+ * bootstrap
+ * bootstrap2
+ * bundle-loader
+ * Legacy assets bundles
+ */
+.vc-tile-bg {
+    background: var(--vc--panel-background);
+}
+
+/**
+ * Used in:
+ * destination-bubble-chart (last checked 1.2.1)
+ * Legacy assets bundles
+ */
+.vc-alt-bg {
+    background-color: var(--vc--alt-background);
+}
+
+/**
+ * Used in:
+ * destination-frequency-heatmap (last checked 2.0.2)
+ * destination-stream-graph (last checked 4.0.14)
+ */
+.vc-line {
+    stroke: var(--vc--text);
+}
+
+/**
+ * Used in:
+ * destination-plotly-xy-chart (last checked 9.5.0)
+ * Legacy assets bundles
+ */
+.vc-hairline {
+    border-color: var(--vc--hairline);
+}
+
+/**
+ * Used in:
+ * destination-sentiment-barometer (last checked 1.1.2)
+ */
+.vc-svg-hairline {
+    stroke: var(--vc--hairline);
+}
+
+/**
+ * Used in:
+ * destination-globe (last checked 4.0.4)
+ * Legacy assets bundles
+ */
+.vc-highlight-panel {
+    background-color: var(--vc--highlight);
+    color: var(--vc--highlight-panel-text);
+}
+
+/**
+ * Used in:
+ * destination-globe (last checked 4.0.4)
+ * Legacy assets bundles
+ */
+.globeLand {
+    stroke: var(--vc--globe-land);
+}
+
+/**
+ * Used in:
+ * destination-globe (last checked 4.0.4)
+ * Legacy assets bundles
+ */
+.globeOceanPrimaryColour {
+    fill: var(--vc--globe-water);
+}
+
+/**
+ * Used in:
+ * destination-sentiment-barometer (last checked 1.1.2)
+ */
+.ls-globe-land {
+    fill: var(--vc--background);
+}
+
+/**
+ * Used in:
+ * destination-sentiment-barometer (last checked 1.1.2)
+ */
+.ls-globe-water {
+    fill: var(--vc--panel-background);
+}
