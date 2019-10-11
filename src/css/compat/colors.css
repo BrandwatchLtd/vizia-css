@@ -158,6 +158,10 @@
  */
 .vc-bg {
     background: var(--vc--background);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 }
 
 /*
