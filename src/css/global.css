@@ -25,7 +25,7 @@
 :root,
 text {
     font-family: var(--viz-type-face-base);
-    font-weight: var(--viz-type-weight-normal);
+    font-weight: var(--viz-type-weight-regular);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-smoothing: always;
