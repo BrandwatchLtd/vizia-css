@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/vizia/vizia-css#readme",
   "devDependencies": {
-    "@vizia/design-tokens": "^0.1.2",
+    "@vizia/design-tokens": "^1.0.0",
     "@vizia/eslint-config": "^2.0.3",
     "clean-css": "^4.2.1",
     "eslint": "^6.5.1",
