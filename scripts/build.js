@@ -5,16 +5,26 @@ const path = require('path');
 
 const CleanCss = require('clean-css');
 
-const {tokens} = require('@vizia/design-tokens');
-const formatCss = require('@vizia/design-tokens/src/lib/format-css');
-
 const cleanCss = new CleanCss({
     returnPromise: true
 });
 
-(async function build() {
-    const sources = await Promise.all(
+async function buildCss(inputFiles, outputFile) {
+    const output = await Promise.all(
+        [...inputFiles].map((path) => fs.readFile(path))
+    );
+    const {styles: minifiedOutput} = await cleanCss.minify(output.join(''));
+
+    return fs.writeFile(outputFile, minifiedOutput);
+}
+
+(async function () {
+    const destinationPath = path.resolve('build');
+
+    await fs.mkdirp(destinationPath);
+    await buildCss(
         [
+            // Core
             path.resolve('src/css/global.css'),
             // Backwards compatibility
             path.resolve('src/css/compat/colors.css'),
@@ -22,23 +32,7 @@ const cleanCss = new CleanCss({
             path.resolve('src/css/compat/icons.css'),
             // Backwards compatibility
             path.resolve('src/css/compat/layout.css')
-        ]
-            .map((path) => fs.readFile(path))
-    );
-
-    const destinationPath = path.resolve('build');
-
-    const output = []
-        .concat(formatCss(tokens.css))
-        .concat(sources)
-        .join('');
-
-    const {styles: minifiedOutput} = await cleanCss.minify(output);
-
-    await fs.mkdirp(destinationPath);
-
-    await fs.writeFile(
-        path.resolve(destinationPath, 'vizia-style.min.css'),
-        minifiedOutput
+        ],
+        path.resolve(destinationPath, 'vizia-style.min.css')
     );
 }());

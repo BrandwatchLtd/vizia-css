@@ -8,9 +8,7 @@
     "prepublishOnly": "npm run build"
   },
   "files": [
-    "src",
-    "build",
-    "!.eslintrc"
+    "build"
   ],
   "publishConfig": {
     "registry": "https://artifactory.brandwatch.com/artifactory/api/npm/npm"
@@ -22,11 +20,9 @@
   "homepage": "https://github.com/vizia/vizia-css#readme",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@vizia/design-tokens": "^1.0.0",
     "@vizia/eslint-config": "^2.0.3",
     "clean-css": "^4.2.1",
     "eslint": "^6.5.1",
     "fs-extra": "^8.1.0"
-  },
-  "dependencies": {}
+  }
 }
