@@ -11,10 +11,7 @@
 
     /**
      * Used in:
-     * destination-feed (last checked 0.2.7)
      * destination-force-quadrant (last checked 1.1.5)
-     * destination-highcharts (last checked 1.3.3)
-     * bootstrap
      */
     --vc--text: var(--viz-color-base);
 
@@ -33,10 +30,7 @@
      */
     --vc--negative: var(--viz-color-negative);
 
-    /**
-     * Used in:
-     * destination-feed (last checked 0.2.7)
-     */
+    /* Not used (except for helper class) */
     --vc--highlight: var(--viz-color-accent);
 
     /* Not used (except for helper class) */
@@ -46,26 +40,16 @@
      * Panel/Border colors
      */
 
-     /**
-      * Used in:
-      * destination-feed (last checked 0.2.7)
-      */
+    /* Not used (except for helper class) */
     --vc--background: var(--viz-color-frame);
 
-    /**
-     * Used in:
-     * destination-feed (last checked 0.2.7)
-     * destination-highcharts (last checked 1.3.3)
-     */
+    /* Not used (except for helper class) */
     --vc--panel-background: var(--viz-color-bg);
 
     /* Not used (except for helper class) */
     --vc--alt-background: var(--viz-color-bg-shift-1);
 
-    /**
-     * Used in:
-     * destination-highcharts (last checked 1.3.3)
-     */
+    /* Not used (except for helper class) */
     --vc--hairline: var(--viz-color-bg-shift-2);
 
     /**
@@ -91,9 +75,8 @@
 
 /**
  * Used in:
- * destination-frequency-heatmap (last checked 2.0.2)
- * destination-stream-graph (last checked 4.0.14)
  * bootstrap
+ * bootstrap2
  * bundle-loader
  * Legacy assets bundles
  */
@@ -141,8 +124,6 @@
 
 /**
  * Used in:
- * destination-rich-text (last checked 2.2.5)
- * destination-table (last checked 10.6.4)
  * Legacy assets bundles
  */
 .vc-text-highlight {
@@ -177,7 +158,6 @@
 
 /**
  * Used in:
- * destination-bubble-chart (last checked 1.2.1)
  * Legacy assets bundles
  */
 .vc-alt-bg {
@@ -185,9 +165,7 @@
 }
 
 /**
- * Used in:
- * destination-frequency-heatmap (last checked 2.0.2)
- * destination-stream-graph (last checked 4.0.14)
+ * Not used
  */
 .vc-line {
     stroke: var(--vc--text);
@@ -195,7 +173,6 @@
 
 /**
  * Used in:
- * destination-plotly-xy-chart (last checked 9.5.0)
  * Legacy assets bundles
  */
 .vc-hairline {
@@ -203,8 +180,7 @@
 }
 
 /**
- * Used in:
- * destination-sentiment-barometer (last checked 1.1.2)
+ * Not used
  */
 .vc-svg-hairline {
     stroke: var(--vc--hairline);
@@ -239,16 +215,14 @@
 }
 
 /**
- * Used in:
- * destination-sentiment-barometer (last checked 1.1.2)
+ * Not used
  */
 .ls-globe-land {
     fill: var(--vc--background);
 }
 
 /**
- * Used in:
- * destination-sentiment-barometer (last checked 1.1.2)
+ * Not used
  */
 .ls-globe-water {
     fill: var(--vc--panel-background);

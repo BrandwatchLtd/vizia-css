@@ -5,7 +5,6 @@
 
  /**
   * Used in:
-  * destination-sentiment-barometer (last checked 1.1.2)
   * Legacy assets bundles
   */
 .vi-arrow-up::before { content: "\25b2"; }
