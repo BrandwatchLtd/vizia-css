@@ -1,77 +1,8 @@
 /**
  * DEPRECATED
  * DO NOT USE when moving forwards, this will be removed
- * Use custom properties and component-based classes instead
+ * Use Vizia Design Tokens, and component-based classes instead
  */
-
-:root {
-    /**
-     * Text colors
-     */
-
-    /**
-     * Used in:
-     * destination-force-quadrant (last checked 1.1.5)
-     */
-    --vc--text: var(--viz-color-base);
-
-    /**
-     * Used in:
-     * destination-force-quadrant (last checked 1.1.5)
-     */
-    --vc--positive: var(--viz-color-positive);
-
-    /* Not used (except for helper class) */
-    --vc--neutral: var(--viz-color-neutral);
-
-    /**
-     * Used in:
-     * destination-force-quadrant (last checked 1.1.5)
-     */
-    --vc--negative: var(--viz-color-negative);
-
-    /* Not used (except for helper class) */
-    --vc--highlight: var(--viz-color-accent);
-
-    /* Not used (except for helper class) */
-    --vc--highlight-panel-text: var(--viz-color-base-highlight);
-
-    /**
-     * Panel/Border colors
-     */
-
-    /* Not used (except for helper class) */
-    --vc--background: var(--viz-color-frame);
-
-    /* Not used (except for helper class) */
-    --vc--panel-background: var(--viz-color-bg);
-
-    /* Not used (except for helper class) */
-    --vc--alt-background: var(--viz-color-bg-shift-1);
-
-    /* Not used (except for helper class) */
-    --vc--hairline: var(--viz-color-bg-shift-2);
-
-    /**
-     * Other colors
-     */
-
-    /* Not used (except for helper class) */
-    --vc--globe-land: var(--viz-color-frame);
-
-    /* Not used (except for helper class) */
-    --vc--globe-water: var(--viz-color-bg-shift-1);
-
-    /**
-     * Copy
-     */
-
-    /**
-     * Used in:
-     * bootstrap
-     */
-    --powered-by-text: '';
-}
 
 /**
  * Used in:
@@ -81,8 +12,8 @@
  * Legacy assets bundles
  */
 .vc-text {
-    color: var(--vc--text);
-    fill: var(--vc--text);
+    color: var(--viz-color-on-surface);
+    fill: var(--viz-color-on-surface);
 }
 
 /**
@@ -90,8 +21,8 @@
  * Legacy assets bundles
  */
 .vc-text-positive {
-    color: var(--vc--positive);
-    fill: var(--vc--positive);
+    color: var(--viz-color-positive);
+    fill: var(--viz-color-positive);
 }
 
 /**
@@ -100,8 +31,8 @@
  * Legacy assets bundles
  */
 .vc-text-neutral {
-    color: var(--vc--neutral);
-    fill: var(--vc--neutral);
+    color: var(--viz-color-neutral);
+    fill: var(--viz-color-neutral);
 }
 
 /**
@@ -109,8 +40,8 @@
  * Legacy assets bundles
  */
 .vc-text-negative {
-    color: var(--vc--negative);
-    fill: var(--vc--negative);
+    color: var(--viz-color-negative);
+    fill: var(--viz-color-negative);
 }
 
 /**
@@ -118,8 +49,8 @@
  * bootstrap
  */
 .vc-text-error {
-    color: var(--vc--negative);
-    fill: var(--vc--negative);
+    color: var(--viz-color-failure);
+    fill: var(--viz-color-failure);
 }
 
 /**
@@ -127,8 +58,8 @@
  * Legacy assets bundles
  */
 .vc-text-highlight {
-    color: var(--vc--highlight);
-    fill: var(--vc--highlight);
+    color: var(--viz-color-secondary);
+    fill: var(--viz-color-secondary);
 }
 
 /**
@@ -138,11 +69,7 @@
  * Legacy assets bundles
  */
 .vc-bg {
-    background: var(--vc--background);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
+    background-color: var(--viz-color-background);
 }
 
 /*
@@ -153,7 +80,7 @@
  * Legacy assets bundles
  */
 .vc-tile-bg {
-    background: var(--vc--panel-background);
+    background: var(--viz-color-surface);
 }
 
 /**
@@ -161,14 +88,7 @@
  * Legacy assets bundles
  */
 .vc-alt-bg {
-    background-color: var(--vc--alt-background);
-}
-
-/**
- * Not used
- */
-.vc-line {
-    stroke: var(--vc--text);
+    background-color: var(--viz-color-surface-shift-1);
 }
 
 /**
@@ -176,14 +96,7 @@
  * Legacy assets bundles
  */
 .vc-hairline {
-    border-color: var(--vc--hairline);
-}
-
-/**
- * Not used
- */
-.vc-svg-hairline {
-    stroke: var(--vc--hairline);
+    border-color: var(--viz-color-surface-shift-2);
 }
 
 /**
@@ -192,8 +105,8 @@
  * Legacy assets bundles
  */
 .vc-highlight-panel {
-    background-color: var(--vc--highlight);
-    color: var(--vc--highlight-panel-text);
+    background-color: var(--viz-color-secondary);
+    color: var(--viz-color-on-secondary);
 }
 
 /**
@@ -202,7 +115,7 @@
  * Legacy assets bundles
  */
 .globeLand {
-    stroke: var(--vc--globe-land);
+    stroke: var(--viz-color-background);
 }
 
 /**
@@ -211,19 +124,5 @@
  * Legacy assets bundles
  */
 .globeOceanPrimaryColour {
-    fill: var(--vc--globe-water);
-}
-
-/**
- * Not used
- */
-.ls-globe-land {
-    fill: var(--vc--background);
-}
-
-/**
- * Not used
- */
-.ls-globe-water {
-    fill: var(--vc--panel-background);
+    fill: var(--viz-color-surface-shift-1);
 }
