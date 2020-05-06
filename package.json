@@ -1,6 +1,6 @@
 {
   "name": "@vizia/vizia-css",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Vizia styles",
   "main": "./build/vizia-style.min.css",
   "scripts": {
