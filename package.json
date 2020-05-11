@@ -20,6 +20,7 @@
   "homepage": "https://github.com/vizia/vizia-css#readme",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@vizia/design-tokens": "^2",
     "@vizia/eslint-config": "^2.0.3",
     "clean-css": "^4.2.1",
     "eslint": "^6.5.1",

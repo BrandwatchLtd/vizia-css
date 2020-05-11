@@ -5,34 +5,52 @@ const path = require('path');
 
 const CleanCss = require('clean-css');
 
+const getDesignTokens = require('@vizia/design-tokens');
+const VIZIA_DARK = require('@vizia/design-tokens/src/presets/vizia-dark');
+
 const cleanCss = new CleanCss({
     returnPromise: true
 });
 
-async function buildCss(inputFiles, outputFile) {
-    const output = await Promise.all(
-        [...inputFiles].map((path) => fs.readFile(path))
-    );
-    const {styles: minifiedOutput} = await cleanCss.minify(output.join(''));
+const formatCss = (cssTokens, selector = ':root') => {
+    const customProperties = Object.entries(cssTokens)
+        .map(([key, value]) => `${key}: ${value};`)
+        .join(' ');
 
-    return fs.writeFile(outputFile, minifiedOutput);
+    return `${selector} { ${customProperties} }`;
+};
+
+async function getCss(files) {
+    const designTokens = getDesignTokens(VIZIA_DARK);
+    const fileOutput = await Promise.all(
+        [...files].map((path) => fs.readFile(path))
+    );
+    const output = [formatCss(designTokens.css), ...fileOutput].join('');
+    const {styles: minifiedOutput} = await cleanCss.minify(output);
+
+    return minifiedOutput;
 }
 
-(async function () {
+(async function build() {
     const destinationPath = path.resolve('build');
 
     await fs.mkdirp(destinationPath);
-    await buildCss(
-        [
-            // Core
-            path.resolve('src/css/global.css'),
-            // Backwards compatibility
-            path.resolve('src/css/compat/colors.css'),
-            // Backwards compatibility
-            path.resolve('src/css/compat/icons.css'),
-            // Backwards compatibility
-            path.resolve('src/css/compat/layout.css')
-        ],
-        path.resolve(destinationPath, 'vizia-style.min.css')
+
+    const css = await getCss([
+        // Core
+        path.resolve('src/css/global.css'),
+        // Backwards compatibility
+        path.resolve('src/css/compat/colors.css'),
+        // Backwards compatibility
+        path.resolve('src/css/compat/icons.css'),
+        // Backwards compatibility
+        path.resolve('src/css/compat/layout.css')
+    ]);
+
+    await fs.writeFile(
+        path.resolve(destinationPath, 'vizia-style.min.css'),
+        css
     );
+
+    console.log('Vizia CSS built');
 }());
